@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+/* MobileLayout.css */
+.mobile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding:0px;
+    margin: 0%;
+    width: 100%;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.circular-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('../images/sang.JPG') center / cover no-repeat;
+}
+
+.text {
+    margin-top: 10px;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.text h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text p {
+    padding-top: 10PX;
+    font-size: 14px;
+}
+
+.large-button-container {
+    margin-top: 20px;
+}
+
+.large-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:365px;
+    height:140px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* Adjust letter spacing */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Add a subtle shadow */
+}
+
+.large-button:hover {
+    background-color: #b9b9b9;
+    /* Change button color on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.insta-image{
+    align-items: left;
+    height: 50px;
+    /* margin-right: 270px; */
+}
+
+
+.second-row {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.fb-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 178px;
+    margin-right: 9px;
+    height: 140px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* Adjust letter spacing */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Add a subtle shadow */
+}
+
+.fb-button:hover {
+    background-color: #b9b9b9;
+    /* Change button color on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    /* Increase shadow on hover */
+}
+
+.fb-image {
+    align-items: left;
+    height: 50px;
+    /* margin-right: 270px; */
+}
+
+.pintrest-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 178px;
+    height: 140px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* Adjust letter spacing */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Add a subtle shadow */
+}
+
+.pintrest-button:hover {
+    background-color: #b9b9b9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.pintrest-image {
+    align-items: left;
+    height: 50px;
+    /* margin-right: 270px; */
+}
+
+.third-row{
+    padding-top: 20px;
+}
+
+
+.twitter-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 365px;
+    height: 140px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* Adjust letter spacing */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.twitter-button:hover {
+    background-color: #b9b9b9;
+    /* Change button color on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    /* Increase shadow on hover */
+}
+
+.x-image {
+    align-items: left;
+    height: 60px;
+    /* margin-right: 270px; */
+}
+
+.fourth-row {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.linkdin-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    width: 208px;
+    height: 140px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* Adjust letter spacing */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Add a subtle shadow */
+}
+
+.linkdin-button:hover {
+    background-color: #b9b9b9;
+    /* Change button color on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    /* Increase shadow on hover */
+}
+
+.linkdin-image {
+    align-items: left;
+    height: 50px;
+    /* margin-right: 270px; */
+}
+
+.threads-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 146px;
+    height: 140px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* Adjust letter spacing */
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Add a subtle shadow */
+}
+
+.threads-button:hover {
+    background-color: #b9b9b9;
+    /* Change button color on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    /* Increase shadow on hover */
+}
+
+.threads-image {
+    align-items: left;
+    height: 60px;
+    /* margin-right: 270px; */
+}
